@@ -1,0 +1,60 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+*.pyd
+*.pyo
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.manifest
+*.spec
+
+# Django
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+
+# ENV variables
+.env
+.env.local
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# MacOS files
+.DS_Store
+
+# Coverage reports
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.mypy_cache/
+
+# Pyre
+.pyre/
+
+# Docker
+*.dockerfile
